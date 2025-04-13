@@ -1,6 +1,6 @@
 const users = require('./user_db')
-const posts = require('../post/post_db')
-const comments = require('../comment/comment_db')
+const posts = require('../Post/post_db')
+const comments = require('../Comment/comment_db')
 
 function getUser(id)
 {

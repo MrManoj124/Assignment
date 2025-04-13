@@ -4,8 +4,8 @@ const app = express()
 const port = 3002
 
 
-const user_route = require('./user/user_router')
-const comment_route = require('./comment/comment_router')
+const user_route = require('./User/user_router')
+const comment_route = require('./Comment/comment_router')
 
 
 app.use(express.json())
